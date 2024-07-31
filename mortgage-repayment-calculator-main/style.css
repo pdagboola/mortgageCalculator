@@ -1,0 +1,175 @@
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url(/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  font-family: "Plus Jakarta Sans";
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main-container {
+  margin: 0 auto;
+  background-color: rgb(217, 235, 242);
+  width: 1440px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 960px;
+  border-radius: 30px;
+  background-color: white;
+}
+.content-container {
+  margin-top: 60px;
+  height: 65vh;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.left-container {
+  background-color: #fff;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.right-content-container {
+  background-color: hsl(202, 55%, 16%);
+  border-radius: 0 20px 20px 50px;
+  height: 65vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  h1,
+  p {
+    margin-top: 10px;
+  }
+  p {
+    color: #ffffffd6;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 30px; */
+  align-items: end;
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+    color: hsl(200, 24%, 40%);
+  }
+}
+label {
+  font-size: 12px;
+  color: hsl(200, 26%, 54%);
+}
+.amount {
+  margin-top: 20px;
+}
+.amount-value {
+  display: flex;
+  border: 1px solid hsl(200, 24%, 40%);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.amount-value p {
+  background-color: hsl(202, 86%, 94%);
+  padding: 6px 10px;
+  font-size: 12px;
+}
+.interest-rate p,
+.mortgage-term p {
+  /* position: absolute; */
+  background-color: hsl(202, 86%, 94%);
+  padding: 6px 20px 6px 10px;
+  font-size: 12px;
+}
+input {
+  border: none;
+  outline: none;
+}
+.term-rate {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.mortgage-term,
+.interest-rate {
+  display: flex;
+  border: 1px solid hsl(200, 24%, 40%);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.interest,
+.mortgage {
+  width: 50%;
+}
+.repayment-btn,
+.interest-btn {
+  border: 1px solid hsl(200, 24%, 40%);
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding: 10px;
+  label {
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(202, 55%, 16%);
+    margin-left: 10px;
+  }
+}
+.mortgage-type {
+  margin-top: 20px;
+}
+button {
+  display: flex;
+  align-items: center;
+  background-color: hsl(61, 70%, 52%);
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 10px 30px;
+  p {
+    color: hsl(202, 55%, 16%);
+    margin-left: 10px;
+    font-weight: 700;
+  }
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 30px; */
+  color: #fff;
+  p {
+    color: rgb(235, 235, 235);
+  }
+  img {
+    width: 200px;
+    height: 100%;
+  }
+}
